@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'),
+    url(../adapter/primaries/react/assets/Roboto-Regular.ttf) format('truetype');
+}
+
+body {
+  margin: 10px;
+  background-color: rgb(23, 23, 23);
+  color: #fafafa;
+  font-family: 'Roboto';
+}
+
+.appBackground {
+  background-color: #172a3c;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 8px;
+  min-height: 95%;
+}
+
+h1,
+h2 {
+  color: #00c3e3;
+  font-size: 25px;
+}
